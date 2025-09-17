@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>aspnet-ToDo-38a071e1-de15-4224-921c-1f4de952cb4e</UserSecretsId>
+    <UserSecretsId>aspnet-todo-964eb5fe-61ea-4b75-a70f-2031cdb492cd</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,6 +13,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.17" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
   </ItemGroup>
 
 </Project>

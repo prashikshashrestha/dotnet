@@ -1,0 +1,27 @@
+﻿@model IEnumerable<db.Models.TaskList>
+
+@{
+    ViewData["Title"] = "My Task List";
+}
+
+<h2>My Task List</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var t in Model)
+        {
+            <tr>
+                <td>@t.task</td>
+                <td>@t.Description</td>
+                <td>@t.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>

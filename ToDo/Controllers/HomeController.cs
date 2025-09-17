@@ -1,17 +1,23 @@
+﻿using Azure.Core;
+using db.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
-using System.Threading.Tasks;
-using ToDo.Models;
+using todo.Data;
+using todo.Models;
 
-namespace ToDo.Controllers
+namespace todo.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        // Inject both logger and ApplicationDbContext
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -21,26 +27,29 @@ namespace ToDo.Controllers
 
         public IActionResult Privacy()
         {
-        //    //through viewdata
-        //    ViewData["Task"] = "Learn dot net";
-        //    ViewData["Description"] = "Getting started in Web Development";
-        //        ViewData["Status"] = "Done";
-        //    //through viewbag
-        //    ViewBag.Task1 = "Start Project";
-        //    ViewBag.Description1 = "Start TODO List Project";
-        //    ViewBag.Status1 = "InProgress";
-        //    //through viemodel
-        //    var Tasklist = new List<tasklist>
-        //    {
-        //        new tasklist { task = "Learn dot net", Description = "Starting my journey on webdevelopment", Status= "Done" },
-        //        new tasklist { task = "Build a project", Description = "Start a TODO List Project", Status= "InProgress" },
-        //        new tasklist { task = "push to Github", Description = "push to github make it publicly available", Status= "ToDo" },
+            if (Request.Method == "POST")
+            {
+                var tlist = new TaskList
+                {
+                    task = Request.Form["task"],
+                    Description = Request.Form["description"],
+                    Status = Request.Form["status"]
+                };
 
-        //    };
-            return View(new tasklist());
-      
+                _context.TaskList.Add(tlist);
+                _context.SaveChanges();
 
+                Console.WriteLine($"Form Submitted: Task={tlist.task}, Description={tlist.Description}, Status={tlist.Status}");
+            }
+            var tasklist = _context.TaskList.ToList();
+            return View(tasklist);
         }
+        public async Task<IActionResult> TaskList()
+        {
+            var tasks = await _context.TaskList.AsNoTracking().ToListAsync();
+            return View(tasks);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

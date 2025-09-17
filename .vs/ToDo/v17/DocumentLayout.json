@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\ToDo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDo\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDo\\Views\\Home\\aboutus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDo\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\views\\home\\tasklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\views\\home\\tasklist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDo\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\data\\migrations\\20250819040732_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\data\\migrations\\20250819040732_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDo\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ToDo\\Models\\tasklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|c:\\users\\administrator\\desktop\\todo\\todo\\todo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{41A96CEA-02C4-41D9-A4EC-01D38C244053}|todo\\todo.csproj|solutionrelative:todo\\todo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,72 +50,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "tasklist.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Models\\tasklist.cs",
-              "RelativeDocumentMoniker": "ToDo\\Models\\tasklist.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Models\\tasklist.cs",
-              "RelativeToolTip": "ToDo\\Models\\tasklist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T03:53:15.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "ToDo\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "ToDo\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwC4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-30T03:13:11.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ToDo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ToDo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T04:26:05.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "ToDo\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "ToDo\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-29T04:24:01.949Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "aboutus.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\aboutus.cs",
-              "RelativeDocumentMoniker": "ToDo\\Views\\Home\\aboutus.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\aboutus.cs",
-              "RelativeToolTip": "ToDo\\Views\\Home\\aboutus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T04:19:45.94Z",
-              "EditorCaption": ""
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ToDo\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ToDo\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-01T17:40:14.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\TaskList.cshtml",
+              "RelativeDocumentMoniker": "ToDo\\Views\\Home\\TaskList.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\TaskList.cshtml",
+              "RelativeToolTip": "ToDo\\Views\\Home\\TaskList.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-27T04:12:31.793Z"
             },
             {
               "$type": "Document",
@@ -109,10 +88,94 @@
               "RelativeDocumentMoniker": "ToDo\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ToDo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T04:14:50.878Z",
+              "WhenOpened": "2025-08-19T04:13:53.249Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250819040732_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Data\\Migrations\\20250819040732_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ToDo\\Data\\Migrations\\20250819040732_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Data\\Migrations\\20250819040732_InitialCreate.cs",
+              "RelativeToolTip": "ToDo\\Data\\Migrations\\20250819040732_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T04:07:32.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskList.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Models\\TaskList.cs",
+              "RelativeDocumentMoniker": "ToDo\\Models\\TaskList.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Models\\TaskList.cs",
+              "RelativeToolTip": "ToDo\\Models\\TaskList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:34:32.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "ToDo\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "ToDo\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-19T04:22:24.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\appsettings.json",
+              "RelativeDocumentMoniker": "ToDo\\appsettings.json",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\appsettings.json",
+              "RelativeToolTip": "ToDo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-19T03:47:19.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ToDo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ToDo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:28:04.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Program.cs",
+              "RelativeDocumentMoniker": "ToDo\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\ToDo\\Program.cs",
+              "RelativeToolTip": "ToDo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-19T03:26:49.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "todo.csproj",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\ToDo\\todo\\todo.csproj",
+              "RelativeDocumentMoniker": "todo\\todo.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\ToDo\\todo\\todo.csproj",
+              "RelativeToolTip": "todo\\todo.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-19T03:13:30.543Z"
             }
           ]
         }

@@ -1,47 +1,18 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-@* @model List<ToDo.Models.TaskList> *@
-@model ToDo.Models.tasklist
-@* <h1>@ViewData["Title"]</h1>
-
-<p>Use this page to detail your site's privacy policy.</p>
-<h1>Data From ViewData</h1>
-<h3>Task Title:</h3>@ViewData["Task"]
-<h3>Task Discription:</h3>@ViewData["Description"]
-<h3>Task Status:</h3>@ViewData["Status"]
-<h1>Data From ViewBag</h1>
-<h3>Task Title:</h3>@ViewBag.Task1
-<h3>Task Discription:</h3>@ViewBag.Description1
-<h3>Task Status:</h3>@ViewBag.Status1
-<h1>View model</h1>
-<table class="table" border="1">
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Status</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var task in Model)
-        {
-            <tr>
-                <td>@task.task</td>
-                <td>@task.Description</td>
-                <td>@task.Status</td>
-            </tr>
-        }
-    </tbody>
-</table> *@
-<h1>Implementing Tag Helpers</h1>
-<form asp-controller="Home" asp-action="Privacy" method="POST">
-    @* <label asp-for="task"></label>
-    <input asp-for="task" />
-    <label asp-for="Description"></label>
-    <input asp-for="Description" />
-    <label asp-for="Status"></label>
-    <input asp-for="Status" /> *@
-    @Html.EditorForModel()
-    <button type="submit">Add Task</button>
+﻿<form asp-controller="Home" asp-action="Privacy" method="POST">
+    <div class="form-group">
+        <label for="task">Task</label>
+        <input type="text" class="form-control" id="task" name="task" aria
+               describedby="TaskHelp" placeholder="Enter your task">
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text" class="form-control" id="description" name="description" aria
+               describedby="DescriptionHelp" placeholder="Enter description of your tasks">
+    </div>
+    <div class="form-group">
+        <label for="status">Status</label>
+        <input type="text" class="form-control" id="status" name="status" aria
+               describedby="StatusHelp" placeholder="Enter status of your task">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
