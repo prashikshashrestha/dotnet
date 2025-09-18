@@ -3,42 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    <h2>Registration form</h2>
+    <h2>Registration Form</h2>
     <form onsubmit="return validateForm()">
         <input type="text" id="name" placeholder="Enter Your Name"><br>
-        <input type="text" id="email" placeholder="Enter your email"><br>
-        <input type="text" id="password" placeholder="password"><br>
-        <button type="submit">Submit</button>
         <p id="error1" style="color: red;"></p>
+
+        <input type="text" id="email" placeholder="Enter your email"><br>
         <p id="error2" style="color: red;"></p>
+
+        <input type="text" id="password" placeholder="Password"><br>
         <p id="error3" style="color: red;"></p>
+
+        <button type="submit">Submit</button>
     </form>
+
     <script>
-        function validateForm(){
-            let name= document.getElementById("name").value;
-            let email= document.getElementById("email").value;
-            let password= document.getElementById("password").valum;
-            let isvalid=true;
-            if(name===""){
-                document.getElementById("error1").innerText="Name cannot be empty!";
-                isvalid=false;
-            }
-            const emailpattern =/^[a-zA-Z0-9.-%]+@gmail\.com$/;
-            if(email===""){
-                document.getElementById("error2").innerText="Enter Valid email!";
+        function validateForm() {
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+            let isvalid = true;
+
+            document.getElementById("error1").innerText = "";
+            document.getElementById("error2").innerText = "";
+            document.getElementById("error3").innerText = "";
+
+            if (name === "") {
+                document.getElementById("error1").innerText = "Name cannot be empty!";
                 isvalid = false;
-            }else if(!emailpattern.test(email)){
-                document.getElementById(error2).textContent="enter a valid email";
-            isvalid=false
             }
-            
-            if(password.length<6){
-                document.getElementById("error3").innerText="Enter at least 7 character";
-                isvalid=false;
+
+            const emailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+            if (email === "") {
+                document.getElementById("error2").innerText = "Email cannot be empty!";
+                isvalid = false;
+            } else if (!emailPattern.test(email)) {
+                document.getElementById("error2").innerText = "Enter a valid Gmail address!";
+                isvalid = false;
             }
+
+            if (password.length < 7) {
+                document.getElementById("error3").innerText = "Password must be at least 7 characters!";
+                isvalid = false;
+            }
+
+            return isvalid;
         }
     </script>
 </body>
